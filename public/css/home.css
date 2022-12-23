@@ -1,0 +1,93 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+
+html{
+    background-color: #FFF;
+}
+
+head{
+    background-color: #FFF;
+}
+
+body{
+    background-color: #FFF;
+}
+
+#mãe{
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://maisconsultoria.com.br/wp-content/uploads/2022/09/Pessoa-vendo-sobre-o-core-business-e-o-quanto-ele-impacta-o-negocio-scaled.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+/* #containerSuperior{
+    font-size: 0;
+    margin-top:1rem;
+}  */
+
+#containerInferior{
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+#boxTabela{
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    background-color: #3F4142;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-style: solid;
+    border-width: 20px;
+    border-color: #3F4142;
+    border-radius: 20px;
+}
+
+#componentesTabela{
+    background-color: #3F4142;
+}
+
+#tabela{
+    color:#FFF;
+    background-color: transparent;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    background-color: #696D70;
+}
+
+#cabecalho{
+    background-color: #3F4142;
+    border-color: #E83A42;
+    color: #FFF;
+}
+
+#perfil{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    border:0;
+}
+
+.card{
+    padding: 8px; 
+}
+#example{
+    width:100%; 
+    height: 50px;
+    text-align:center;
+    font-size: 15px;
+}
+#headTable{
+    text-align:center;
+    font-size: 15px;
+}
